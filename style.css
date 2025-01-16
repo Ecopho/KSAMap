@@ -1,0 +1,123 @@
+html{
+
+
+
+  background: #e2efd7;
+  color: rgba(250, 250,250,1);
+  scroll-behavior: smooth;
+
+
+}
+body{
+  margin-left: 400px;
+}
+
+
+
+/* width */
+  ::-webkit-scrollbar {
+    width: 15px;
+  }
+
+/* Track */
+  ::-webkit-scrollbar-track {
+    background: #0d4522;
+    border-radius: 0px;
+    width: 15px;
+  }
+
+/* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #0e6c32; 
+    border-radius: 10px;
+    width: 12px;
+  }
+
+/* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #17a64e; 
+
+  }
+
+
+
+
+/*Navigation*/
+nav {
+  margin-top: 40px;
+
+  background-color: #0c4620;
+  border-radius: 15px;
+  
+  width: 1040px;
+  height: 65px;
+  margin-bottom: 100px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+
+nav li a{
+  
+  float: right;
+  color: rgba(250, 250,250,1);/*text*/
+  text-align: center;
+  background-color: #4a862d;
+  border-radius: 15px;
+  height: 45px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  text-decoration: none;
+  transition: all 0.3s;
+  font-size: 35px;
+  border-color: #ffffff;
+  border-width: 2px;
+}
+
+
+nav li a:hover {
+  color: rgba(250, 250,250,1); /*text*/
+  background-color: #5fbf45;
+  border-color: #ffffff;
+  border-width: 4px;
+  
+}
+
+
+.Nav-Home{
+  float: left;
+
+}
+
+
+.r{
+  border-radius: 15px;
+  font-size: 30px;
+  padding: 20px;
+  margin-bottom: 40px;
+  background-color: #274938;
+  width: 1000px;
+}
+
+
+.h {
+  font-size: 40px;
+  margin-top: 20px; /* Adjusted margin-top */
+  margin-bottom: 10px;
+  width: 1000px;
+  font-family: "Comic sans ms";
+  color: #33ff4b;
+  display: block; /* Ensure it's displayed as a block-level element */
+  clear: both; /* Clear any floated elements */
+}
